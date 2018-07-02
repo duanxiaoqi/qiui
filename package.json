@@ -1,9 +1,9 @@
 {
-  "name": "qiui",
+  "name": "qiui-vue",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "duanqi <duanqi@xiaomi.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -61,6 +61,14 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": ".postcssrc.js",
-  "license": "ISC"
+  "main": "dist/qiui-vue.min.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duanxiaoqi/qiui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duanxiaoqi/qiui/issues"
+  },
+  "homepage": "https://github.com/duanxiaoqi/qiui#readme"
 }
